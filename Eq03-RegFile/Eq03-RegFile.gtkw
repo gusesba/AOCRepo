@@ -1,0 +1,37 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Sep 12 17:29:13 2023
+[*]
+[dumpfile] "/home/jose/arquitetura/lab3/Eq03-RegFile.ghw"
+[dumpfile_mtime] "Tue Sep 12 17:26:34 2023"
+[dumpfile_size] 4377
+[savefile] "/home/jose/arquitetura/lab3/Eq03-RegFile.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-28.813288 839000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.register_file_tb.
+[treeopen] top.register_file_tb.uut.
+[treeopen] top.register_file_tb.uut.r1.
+[treeopen] top.register_file_tb.uut.r2.
+[treeopen] top.register_file_tb.uut.r3.
+[sst_width] 233
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@22
+#{top.register_file_tb.rd2[15:0]} top.register_file_tb.rd2[15] top.register_file_tb.rd2[14] top.register_file_tb.rd2[13] top.register_file_tb.rd2[12] top.register_file_tb.rd2[11] top.register_file_tb.rd2[10] top.register_file_tb.rd2[9] top.register_file_tb.rd2[8] top.register_file_tb.rd2[7] top.register_file_tb.rd2[6] top.register_file_tb.rd2[5] top.register_file_tb.rd2[4] top.register_file_tb.rd2[3] top.register_file_tb.rd2[2] top.register_file_tb.rd2[1] top.register_file_tb.rd2[0]
+#{top.register_file_tb.rd1[15:0]} top.register_file_tb.rd1[15] top.register_file_tb.rd1[14] top.register_file_tb.rd1[13] top.register_file_tb.rd1[12] top.register_file_tb.rd1[11] top.register_file_tb.rd1[10] top.register_file_tb.rd1[9] top.register_file_tb.rd1[8] top.register_file_tb.rd1[7] top.register_file_tb.rd1[6] top.register_file_tb.rd1[5] top.register_file_tb.rd1[4] top.register_file_tb.rd1[3] top.register_file_tb.rd1[2] top.register_file_tb.rd1[1] top.register_file_tb.rd1[0]
+@28
+top.register_file_tb.uut.rst
+#{top.register_file_tb.a1[2:0]} top.register_file_tb.a1[2] top.register_file_tb.a1[1] top.register_file_tb.a1[0]
+#{top.register_file_tb.a2[2:0]} top.register_file_tb.a2[2] top.register_file_tb.a2[1] top.register_file_tb.a2[0]
+#{top.register_file_tb.a3[2:0]} top.register_file_tb.a3[2] top.register_file_tb.a3[1] top.register_file_tb.a3[0]
+@22
+#{top.register_file_tb.uut.r1.registro[15:0]} top.register_file_tb.uut.r1.registro[15] top.register_file_tb.uut.r1.registro[14] top.register_file_tb.uut.r1.registro[13] top.register_file_tb.uut.r1.registro[12] top.register_file_tb.uut.r1.registro[11] top.register_file_tb.uut.r1.registro[10] top.register_file_tb.uut.r1.registro[9] top.register_file_tb.uut.r1.registro[8] top.register_file_tb.uut.r1.registro[7] top.register_file_tb.uut.r1.registro[6] top.register_file_tb.uut.r1.registro[5] top.register_file_tb.uut.r1.registro[4] top.register_file_tb.uut.r1.registro[3] top.register_file_tb.uut.r1.registro[2] top.register_file_tb.uut.r1.registro[1] top.register_file_tb.uut.r1.registro[0]
+#{top.register_file_tb.uut.r2.registro[15:0]} top.register_file_tb.uut.r2.registro[15] top.register_file_tb.uut.r2.registro[14] top.register_file_tb.uut.r2.registro[13] top.register_file_tb.uut.r2.registro[12] top.register_file_tb.uut.r2.registro[11] top.register_file_tb.uut.r2.registro[10] top.register_file_tb.uut.r2.registro[9] top.register_file_tb.uut.r2.registro[8] top.register_file_tb.uut.r2.registro[7] top.register_file_tb.uut.r2.registro[6] top.register_file_tb.uut.r2.registro[5] top.register_file_tb.uut.r2.registro[4] top.register_file_tb.uut.r2.registro[3] top.register_file_tb.uut.r2.registro[2] top.register_file_tb.uut.r2.registro[1] top.register_file_tb.uut.r2.registro[0]
+@23
+#{top.register_file_tb.uut.r3.registro[15:0]} top.register_file_tb.uut.r3.registro[15] top.register_file_tb.uut.r3.registro[14] top.register_file_tb.uut.r3.registro[13] top.register_file_tb.uut.r3.registro[12] top.register_file_tb.uut.r3.registro[11] top.register_file_tb.uut.r3.registro[10] top.register_file_tb.uut.r3.registro[9] top.register_file_tb.uut.r3.registro[8] top.register_file_tb.uut.r3.registro[7] top.register_file_tb.uut.r3.registro[6] top.register_file_tb.uut.r3.registro[5] top.register_file_tb.uut.r3.registro[4] top.register_file_tb.uut.r3.registro[3] top.register_file_tb.uut.r3.registro[2] top.register_file_tb.uut.r3.registro[1] top.register_file_tb.uut.r3.registro[0]
+[pattern_trace] 1
+[pattern_trace] 0
