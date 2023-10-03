@@ -1,0 +1,80 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Oct  3 18:28:36 2023
+[*]
+[dumpfile] "/home/jose/arquitetura/lab4/Eq03-RegFile.ghw"
+[dumpfile_mtime] "Tue Oct  3 18:16:04 2023"
+[dumpfile_size] 4647
+[savefile] "/home/jose/arquitetura/lab4/gtkwave.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-28.813288 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.ularegs_tb.
+[treeopen] top.ularegs_tb.uut.
+[treeopen] top.ularegs_tb.uut.aaa.
+[treeopen] top.ularegs_tb.uut.aaa.r0.
+[treeopen] top.ularegs_tb.uut.aaa.r1.
+[treeopen] top.ularegs_tb.uut.aaa.r2.
+[treeopen] top.ularegs_tb.uut.aaa.r3.
+[treeopen] top.ularegs_tb.uut.aaa.r4.
+[treeopen] top.ularegs_tb.uut.aaa.r5.
+[treeopen] top.ularegs_tb.uut.aaa.r6.
+[treeopen] top.ularegs_tb.uut.aaa.r7.
+[treeopen] top.ularegs_tb.uut.bbb.
+[sst_width] 233
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+top.ularegs_tb.clk
+top.ularegs_tb.rst
+top.ularegs_tb.we3
+top.ularegs_tb.uut.o_cons
+#{top.ularegs_tb.uut.bbb.op[2:0]} top.ularegs_tb.uut.bbb.op[2] top.ularegs_tb.uut.bbb.op[1] top.ularegs_tb.uut.bbb.op[0]
+@22
+#{top.ularegs_tb.uut.bbb.out_ula[15:0]} top.ularegs_tb.uut.bbb.out_ula[15] top.ularegs_tb.uut.bbb.out_ula[14] top.ularegs_tb.uut.bbb.out_ula[13] top.ularegs_tb.uut.bbb.out_ula[12] top.ularegs_tb.uut.bbb.out_ula[11] top.ularegs_tb.uut.bbb.out_ula[10] top.ularegs_tb.uut.bbb.out_ula[9] top.ularegs_tb.uut.bbb.out_ula[8] top.ularegs_tb.uut.bbb.out_ula[7] top.ularegs_tb.uut.bbb.out_ula[6] top.ularegs_tb.uut.bbb.out_ula[5] top.ularegs_tb.uut.bbb.out_ula[4] top.ularegs_tb.uut.bbb.out_ula[3] top.ularegs_tb.uut.bbb.out_ula[2] top.ularegs_tb.uut.bbb.out_ula[1] top.ularegs_tb.uut.bbb.out_ula[0]
+@28
+top.ularegs_tb.uut.zero
+@29
+top.ularegs_tb.uut.mq
+@28
+#{top.ularegs_tb.a3[2:0]} top.ularegs_tb.a3[2] top.ularegs_tb.a3[1] top.ularegs_tb.a3[0]
+#{top.ularegs_tb.a2[2:0]} top.ularegs_tb.a2[2] top.ularegs_tb.a2[1] top.ularegs_tb.a2[0]
+#{top.ularegs_tb.a1[2:0]} top.ularegs_tb.a1[2] top.ularegs_tb.a1[1] top.ularegs_tb.a1[0]
+@22
+#{top.ularegs_tb.uut.cons[15:0]} top.ularegs_tb.uut.cons[15] top.ularegs_tb.uut.cons[14] top.ularegs_tb.uut.cons[13] top.ularegs_tb.uut.cons[12] top.ularegs_tb.uut.cons[11] top.ularegs_tb.uut.cons[10] top.ularegs_tb.uut.cons[9] top.ularegs_tb.uut.cons[8] top.ularegs_tb.uut.cons[7] top.ularegs_tb.uut.cons[6] top.ularegs_tb.uut.cons[5] top.ularegs_tb.uut.cons[4] top.ularegs_tb.uut.cons[3] top.ularegs_tb.uut.cons[2] top.ularegs_tb.uut.cons[1] top.ularegs_tb.uut.cons[0]
+#{top.ularegs_tb.uut.s_rd2[15:0]} top.ularegs_tb.uut.s_rd2[15] top.ularegs_tb.uut.s_rd2[14] top.ularegs_tb.uut.s_rd2[13] top.ularegs_tb.uut.s_rd2[12] top.ularegs_tb.uut.s_rd2[11] top.ularegs_tb.uut.s_rd2[10] top.ularegs_tb.uut.s_rd2[9] top.ularegs_tb.uut.s_rd2[8] top.ularegs_tb.uut.s_rd2[7] top.ularegs_tb.uut.s_rd2[6] top.ularegs_tb.uut.s_rd2[5] top.ularegs_tb.uut.s_rd2[4] top.ularegs_tb.uut.s_rd2[3] top.ularegs_tb.uut.s_rd2[2] top.ularegs_tb.uut.s_rd2[1] top.ularegs_tb.uut.s_rd2[0]
+#{top.ularegs_tb.uut.s_rd1[15:0]} top.ularegs_tb.uut.s_rd1[15] top.ularegs_tb.uut.s_rd1[14] top.ularegs_tb.uut.s_rd1[13] top.ularegs_tb.uut.s_rd1[12] top.ularegs_tb.uut.s_rd1[11] top.ularegs_tb.uut.s_rd1[10] top.ularegs_tb.uut.s_rd1[9] top.ularegs_tb.uut.s_rd1[8] top.ularegs_tb.uut.s_rd1[7] top.ularegs_tb.uut.s_rd1[6] top.ularegs_tb.uut.s_rd1[5] top.ularegs_tb.uut.s_rd1[4] top.ularegs_tb.uut.s_rd1[3] top.ularegs_tb.uut.s_rd1[2] top.ularegs_tb.uut.s_rd1[1] top.ularegs_tb.uut.s_rd1[0]
+@c00022
+#{top.ularegs_tb.uut.aaa.r7.registro[15:0]} top.ularegs_tb.uut.aaa.r7.registro[15] top.ularegs_tb.uut.aaa.r7.registro[14] top.ularegs_tb.uut.aaa.r7.registro[13] top.ularegs_tb.uut.aaa.r7.registro[12] top.ularegs_tb.uut.aaa.r7.registro[11] top.ularegs_tb.uut.aaa.r7.registro[10] top.ularegs_tb.uut.aaa.r7.registro[9] top.ularegs_tb.uut.aaa.r7.registro[8] top.ularegs_tb.uut.aaa.r7.registro[7] top.ularegs_tb.uut.aaa.r7.registro[6] top.ularegs_tb.uut.aaa.r7.registro[5] top.ularegs_tb.uut.aaa.r7.registro[4] top.ularegs_tb.uut.aaa.r7.registro[3] top.ularegs_tb.uut.aaa.r7.registro[2] top.ularegs_tb.uut.aaa.r7.registro[1] top.ularegs_tb.uut.aaa.r7.registro[0]
+@28
+top.ularegs_tb.uut.aaa.r7.registro[15]
+top.ularegs_tb.uut.aaa.r7.registro[14]
+top.ularegs_tb.uut.aaa.r7.registro[13]
+top.ularegs_tb.uut.aaa.r7.registro[12]
+top.ularegs_tb.uut.aaa.r7.registro[11]
+top.ularegs_tb.uut.aaa.r7.registro[10]
+top.ularegs_tb.uut.aaa.r7.registro[9]
+top.ularegs_tb.uut.aaa.r7.registro[8]
+top.ularegs_tb.uut.aaa.r7.registro[7]
+top.ularegs_tb.uut.aaa.r7.registro[6]
+top.ularegs_tb.uut.aaa.r7.registro[5]
+top.ularegs_tb.uut.aaa.r7.registro[4]
+top.ularegs_tb.uut.aaa.r7.registro[3]
+top.ularegs_tb.uut.aaa.r7.registro[2]
+top.ularegs_tb.uut.aaa.r7.registro[1]
+top.ularegs_tb.uut.aaa.r7.registro[0]
+@1401200
+-group_end
+@22
+#{top.ularegs_tb.uut.aaa.r6.registro[15:0]} top.ularegs_tb.uut.aaa.r6.registro[15] top.ularegs_tb.uut.aaa.r6.registro[14] top.ularegs_tb.uut.aaa.r6.registro[13] top.ularegs_tb.uut.aaa.r6.registro[12] top.ularegs_tb.uut.aaa.r6.registro[11] top.ularegs_tb.uut.aaa.r6.registro[10] top.ularegs_tb.uut.aaa.r6.registro[9] top.ularegs_tb.uut.aaa.r6.registro[8] top.ularegs_tb.uut.aaa.r6.registro[7] top.ularegs_tb.uut.aaa.r6.registro[6] top.ularegs_tb.uut.aaa.r6.registro[5] top.ularegs_tb.uut.aaa.r6.registro[4] top.ularegs_tb.uut.aaa.r6.registro[3] top.ularegs_tb.uut.aaa.r6.registro[2] top.ularegs_tb.uut.aaa.r6.registro[1] top.ularegs_tb.uut.aaa.r6.registro[0]
+#{top.ularegs_tb.uut.aaa.r5.registro[15:0]} top.ularegs_tb.uut.aaa.r5.registro[15] top.ularegs_tb.uut.aaa.r5.registro[14] top.ularegs_tb.uut.aaa.r5.registro[13] top.ularegs_tb.uut.aaa.r5.registro[12] top.ularegs_tb.uut.aaa.r5.registro[11] top.ularegs_tb.uut.aaa.r5.registro[10] top.ularegs_tb.uut.aaa.r5.registro[9] top.ularegs_tb.uut.aaa.r5.registro[8] top.ularegs_tb.uut.aaa.r5.registro[7] top.ularegs_tb.uut.aaa.r5.registro[6] top.ularegs_tb.uut.aaa.r5.registro[5] top.ularegs_tb.uut.aaa.r5.registro[4] top.ularegs_tb.uut.aaa.r5.registro[3] top.ularegs_tb.uut.aaa.r5.registro[2] top.ularegs_tb.uut.aaa.r5.registro[1] top.ularegs_tb.uut.aaa.r5.registro[0]
+#{top.ularegs_tb.uut.aaa.r4.registro[15:0]} top.ularegs_tb.uut.aaa.r4.registro[15] top.ularegs_tb.uut.aaa.r4.registro[14] top.ularegs_tb.uut.aaa.r4.registro[13] top.ularegs_tb.uut.aaa.r4.registro[12] top.ularegs_tb.uut.aaa.r4.registro[11] top.ularegs_tb.uut.aaa.r4.registro[10] top.ularegs_tb.uut.aaa.r4.registro[9] top.ularegs_tb.uut.aaa.r4.registro[8] top.ularegs_tb.uut.aaa.r4.registro[7] top.ularegs_tb.uut.aaa.r4.registro[6] top.ularegs_tb.uut.aaa.r4.registro[5] top.ularegs_tb.uut.aaa.r4.registro[4] top.ularegs_tb.uut.aaa.r4.registro[3] top.ularegs_tb.uut.aaa.r4.registro[2] top.ularegs_tb.uut.aaa.r4.registro[1] top.ularegs_tb.uut.aaa.r4.registro[0]
+#{top.ularegs_tb.uut.aaa.r3.registro[15:0]} top.ularegs_tb.uut.aaa.r3.registro[15] top.ularegs_tb.uut.aaa.r3.registro[14] top.ularegs_tb.uut.aaa.r3.registro[13] top.ularegs_tb.uut.aaa.r3.registro[12] top.ularegs_tb.uut.aaa.r3.registro[11] top.ularegs_tb.uut.aaa.r3.registro[10] top.ularegs_tb.uut.aaa.r3.registro[9] top.ularegs_tb.uut.aaa.r3.registro[8] top.ularegs_tb.uut.aaa.r3.registro[7] top.ularegs_tb.uut.aaa.r3.registro[6] top.ularegs_tb.uut.aaa.r3.registro[5] top.ularegs_tb.uut.aaa.r3.registro[4] top.ularegs_tb.uut.aaa.r3.registro[3] top.ularegs_tb.uut.aaa.r3.registro[2] top.ularegs_tb.uut.aaa.r3.registro[1] top.ularegs_tb.uut.aaa.r3.registro[0]
+#{top.ularegs_tb.uut.aaa.r2.registro[15:0]} top.ularegs_tb.uut.aaa.r2.registro[15] top.ularegs_tb.uut.aaa.r2.registro[14] top.ularegs_tb.uut.aaa.r2.registro[13] top.ularegs_tb.uut.aaa.r2.registro[12] top.ularegs_tb.uut.aaa.r2.registro[11] top.ularegs_tb.uut.aaa.r2.registro[10] top.ularegs_tb.uut.aaa.r2.registro[9] top.ularegs_tb.uut.aaa.r2.registro[8] top.ularegs_tb.uut.aaa.r2.registro[7] top.ularegs_tb.uut.aaa.r2.registro[6] top.ularegs_tb.uut.aaa.r2.registro[5] top.ularegs_tb.uut.aaa.r2.registro[4] top.ularegs_tb.uut.aaa.r2.registro[3] top.ularegs_tb.uut.aaa.r2.registro[2] top.ularegs_tb.uut.aaa.r2.registro[1] top.ularegs_tb.uut.aaa.r2.registro[0]
+#{top.ularegs_tb.uut.aaa.r1.registro[15:0]} top.ularegs_tb.uut.aaa.r1.registro[15] top.ularegs_tb.uut.aaa.r1.registro[14] top.ularegs_tb.uut.aaa.r1.registro[13] top.ularegs_tb.uut.aaa.r1.registro[12] top.ularegs_tb.uut.aaa.r1.registro[11] top.ularegs_tb.uut.aaa.r1.registro[10] top.ularegs_tb.uut.aaa.r1.registro[9] top.ularegs_tb.uut.aaa.r1.registro[8] top.ularegs_tb.uut.aaa.r1.registro[7] top.ularegs_tb.uut.aaa.r1.registro[6] top.ularegs_tb.uut.aaa.r1.registro[5] top.ularegs_tb.uut.aaa.r1.registro[4] top.ularegs_tb.uut.aaa.r1.registro[3] top.ularegs_tb.uut.aaa.r1.registro[2] top.ularegs_tb.uut.aaa.r1.registro[1] top.ularegs_tb.uut.aaa.r1.registro[0]
+#{top.ularegs_tb.uut.aaa.r0.registro[15:0]} top.ularegs_tb.uut.aaa.r0.registro[15] top.ularegs_tb.uut.aaa.r0.registro[14] top.ularegs_tb.uut.aaa.r0.registro[13] top.ularegs_tb.uut.aaa.r0.registro[12] top.ularegs_tb.uut.aaa.r0.registro[11] top.ularegs_tb.uut.aaa.r0.registro[10] top.ularegs_tb.uut.aaa.r0.registro[9] top.ularegs_tb.uut.aaa.r0.registro[8] top.ularegs_tb.uut.aaa.r0.registro[7] top.ularegs_tb.uut.aaa.r0.registro[6] top.ularegs_tb.uut.aaa.r0.registro[5] top.ularegs_tb.uut.aaa.r0.registro[4] top.ularegs_tb.uut.aaa.r0.registro[3] top.ularegs_tb.uut.aaa.r0.registro[2] top.ularegs_tb.uut.aaa.r0.registro[1] top.ularegs_tb.uut.aaa.r0.registro[0]
+[pattern_trace] 1
+[pattern_trace] 0

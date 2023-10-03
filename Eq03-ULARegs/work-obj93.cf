@@ -1,0 +1,16 @@
+v 4
+file . "Eq03-ULARegs_tb.vhd" "986c15749793911d0bff02f85cc2e40d02f8e70f" "20231003183940.025":
+  entity ularegs_tb at 1( 0) + 0 on 39;
+  architecture a_ularegs_tb of ularegs_tb at 7( 103) + 0 on 40;
+file . "Eq03-ULARegs.vhd" "ad9b8deb53419ece70fc6c11312344df602ecd58" "20231003181014.869":
+  entity ularegs at 1( 0) + 0 on 31;
+  architecture a_ularegs of ularegs at 16( 287) + 0 on 32;
+file . "Eq03-ULA.vhd" "7ca5be9a1ff07069d27f0f2b2b07ff1ce9416359" "20231002220904.134":
+  entity ula at 6( 215) + 0 on 21;
+  architecture a_ula of ula at 19( 506) + 0 on 22;
+file . "Eq03-reg16bits.vhd" "c523e718600f05ce163847eaa86f5a9d133c7cdf" "20231002220854.392":
+  entity reg16bits at 1( 0) + 0 on 17;
+  architecture a_reg16bits of reg16bits at 13( 259) + 0 on 18;
+file . "Eq03-RegFile.vhd" "94e10bf8be0b64d42aac1b6c1243014128235e74" "20231002220859.353":
+  entity register_file at 1( 0) + 0 on 19;
+  architecture a_register_file of register_file at 15( 295) + 0 on 20;
