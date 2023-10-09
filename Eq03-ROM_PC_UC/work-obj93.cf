@@ -1,0 +1,13 @@
+v 4
+file . "Eq03-maq_estados.vhd" "81e9f973638603c6f7636848c470c239cb3b6605" "20231009221846.011":
+  entity maq_estados at 1( 0) + 0 on 57;
+  architecture a_maq_estados of maq_estados at 13( 169) + 0 on 58;
+file . "teste.vhd" "ee56ab57f2bfc011e4681382b810d470329ca155" "20231009215758.107":
+  entity tb at 1( 0) + 0 on 55;
+  architecture a_tb of tb at 7( 95) + 0 on 56;
+file . "Eq03-pc.vhd" "b58b7b49afc96bbdbb171448aef26ba8020aa8e3" "20231009215239.020":
+  entity pc at 1( 0) + 0 on 45;
+  architecture a_pc of pc at 14( 217) + 0 on 46;
+file . "Eq03-rom.vhd" "e23405b69949dfe790ecf905400517f279da025b" "20231009215756.558":
+  entity rom at 1( 0) + 0 on 53;
+  architecture a_rom of rom at 13( 202) + 0 on 54;
