@@ -28,26 +28,27 @@ ARCHITECTURE a_ROM_PC_UC OF ROM_PC_UC IS
 	
 	component uc IS
 	PORT (
-		jump_en,wr_en : out unsigned;
+		jump_en,wr_en : out std_logic;
+		clk, rst : in std_logic;
 		opcode : IN unsigned(1 DOWNTO 0)
 	);
 	END component;
 	
-  SIGNAL CLK_s, RST_s, WR_EN : std_logic := '0';
-  signal data_in_s, data_out_s, dado_s, dado_out : unsigned(7 downto 0) :=x"00";
+  SIGNAL WR_EN, jump_en_s : std_logic := '0';
+  signal data_in_s, data_out_s, dado_s : unsigned(7 downto 0) :=x"00";
+  signal opcode_s : unsigned (1 downto 0) :="00";
   
 BEGIN
-  pc_uut : pc PORT MAP(clk=>CLK_s, wr_en=>WR_EN, rst=>RST_s, data_in=>data_in_s, data_out=>data_out_s);
-  rom_uut : rom port map(clk=>CLK_s, endereco=>data_out_s, dado=>dado_s);
-  uc_uuc : uc port map();
+  pc_uut : pc PORT MAP(clk=>clk, wr_en=>WR_EN, rst=>RST, data_in=>data_in_s, data_out=>data_out_s);
+  rom_uut : rom port map(clk=>CLK, endereco=>data_out_s, dado=>dado_s);
+  uc_uuc : uc port map(clk=>CLK, rst=>RST, wr_en=>WR_EN, jump_en=>jump_en_s,opcode=>opcode_s);
   
-  data_in_s<= data_in_s + x"01" when rising_edge(est_s) else
-	data_in_s; 
-  dado_out<=dado_s when rising_edge(est_s) else
-	dado_out; 
- WR_EN <= '1' when rising_edge(est_s) else 
- 	'0';
+opcode_s<=dado_s(7 downto 6);
+
+data_in_s<= "00"&dado_s(5 downto 0) when jump_en_s='1' else
+	data_out_s + x"01";
 	
+
 
 END ARCHITECTURE;
 

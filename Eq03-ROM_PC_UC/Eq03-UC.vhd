@@ -4,7 +4,8 @@ USE ieee.numeric_std.ALL;
 
 ENTITY uc IS
 	PORT (
-		jump_en,wr_en,clk : out unsigned;
+		jump_en,wr_en : out std_logic;
+		clk,rst : in std_logic;
 		opcode : IN unsigned(1 DOWNTO 0)
 	);
 END ENTITY;
@@ -18,10 +19,10 @@ component maq_estados is
 	);
 	end component;
 
-SIGNAL CLK_s, RST_s, WR_EN, est_s : std_logic := '0';
+SIGNAL est_s : std_logic := '0';
 
 BEGIN
-  maq_estados_uut : maq_estados port map(clk=>CLK_s, rst =>RST_s, estado=>est_s);
+  maq_estados_uut : maq_estados port map(clk=>clk, rst =>rst, estado=>est_s);
   
   	wr_en<='0' when est_s='0' else
   		'1';
