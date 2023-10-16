@@ -1,13 +1,4 @@
 v 4
-file . "teste.vhd" "1ba8d48bf4ac30fad5346438061f02b49d6be2bd" "20231016210638.120":
-  entity tb at 1( 0) + 0 on 17;
-  architecture a_tb of tb at 7( 101) + 0 on 18;
-file . "Eq03-pc.vhd" "cd2af12cbbc182396a4f6b80fdbbd996ff2bb338" "20231016210638.072":
-  entity pc at 1( 0) + 0 on 13;
-  architecture a_pc of pc at 14( 230) + 0 on 14;
-file . "Eq03-rom.vhd" "f76ee4b37b348d50c5fe5dc25ad747c7825f409d" "20231016210638.045":
-  entity rom at 1( 0) + 0 on 11;
-  architecture a_rom of rom at 13( 214) + 0 on 12;
-file . "Eq03-maq_estados.vhd" "d72f7bb46ddae782c1bafc17ff9a4c58fa45bc4a" "20231016210638.096":
-  entity maq_estados at 1( 0) + 0 on 15;
-  architecture a_maq_estados of maq_estados at 13( 181) + 0 on 16;
+file . "Eq03-ROM_PC_UC.vhd" "cb27304fc8043c23d556e8530c235494e78975d9" "20231016211353.984":
+  entity rom_pc_uc at 1( 0) + 0 on 11;
+  architecture a_rom_pc_uc of rom_pc_uc at 14( 216) + 0 on 12;

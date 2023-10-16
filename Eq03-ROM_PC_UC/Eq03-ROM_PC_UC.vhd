@@ -43,7 +43,8 @@ BEGIN
   rom_uut : rom port map(clk=>CLK_s, endereco=>data_out_s, dado=>dado_s);
   maq_estados_uut : maq_estados port map(clk=>CLK_s, rst =>RST_s, estado=>est_s);
   
-  data_in_s<= data_in_s + x"01" when rising_edge(est_s) else
+  data_in_s<= data_in_s + x"01" when rising_edge(est_s) and endereco=x"00" else
+  	endereco when endereco/=x"00" else
 	data_in_s; 
   dado_out<=dado_s when rising_edge(est_s) else
 	dado_out; 
