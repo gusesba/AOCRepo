@@ -3,9 +3,7 @@ USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 ENTITY ROM_PC_UC IS
 	port (
-		clk, rst : in std_logic;
-		endereco : in unsigned(7 downto 0);
-		dado : out unsigned(7 downto 0)
+		clk, rst : in std_logic
 	);
 	
 
@@ -28,28 +26,28 @@ ARCHITECTURE a_ROM_PC_UC OF ROM_PC_UC IS
 	);
 	end component;
 	
-	component maq_estados is
-	port(
-		clk, rst : in std_logic;
-		estado : out std_logic
+	component uc IS
+	PORT (
+		jump_en,wr_en : out unsigned;
+		opcode : IN unsigned(1 DOWNTO 0)
 	);
-	end component;
+	END component;
 	
-  SIGNAL CLK_s, RST_s, WR_EN, est_s : std_logic := '0';
+  SIGNAL CLK_s, RST_s, WR_EN : std_logic := '0';
   signal data_in_s, data_out_s, dado_s, dado_out : unsigned(7 downto 0) :=x"00";
   
 BEGIN
   pc_uut : pc PORT MAP(clk=>CLK_s, wr_en=>WR_EN, rst=>RST_s, data_in=>data_in_s, data_out=>data_out_s);
   rom_uut : rom port map(clk=>CLK_s, endereco=>data_out_s, dado=>dado_s);
-  maq_estados_uut : maq_estados port map(clk=>CLK_s, rst =>RST_s, estado=>est_s);
+  uc_uuc : uc port map();
   
-  data_in_s<= data_in_s + x"01" when rising_edge(est_s) and endereco=x"00" else
-  	endereco when endereco/=x"00" else
+  data_in_s<= data_in_s + x"01" when rising_edge(est_s) else
 	data_in_s; 
   dado_out<=dado_s when rising_edge(est_s) else
 	dado_out; 
+ WR_EN <= '1' when rising_edge(est_s) else 
+ 	'0';
 	
-  dado<=dado_out;
 
 END ARCHITECTURE;
 
