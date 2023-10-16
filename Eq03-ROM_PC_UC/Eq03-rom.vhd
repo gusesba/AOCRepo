@@ -1,40 +1,41 @@
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
 
-entity rom is
-	port(
-		clk: in std_logic;
-		endereco : in unsigned(7 downto 0);
-		dado : out unsigned(7 downto 0)
+ENTITY rom IS
+	PORT (
+		clk : IN STD_LOGIC;
+		endereco : IN unsigned(7 DOWNTO 0);
+		dado : OUT unsigned(7 DOWNTO 0)
 	);
-end entity;
+END ENTITY;
 
-architecture a_rom of rom is
-	type mem is array (0 to 127) of unsigned(7 downto 0);
-	constant conteudo_rom : mem := (
+ARCHITECTURE a_rom OF rom IS
+	TYPE mem IS ARRAY (0 TO 127) OF unsigned(7 DOWNTO 0);
+	CONSTANT conteudo_rom : mem := (
 		-- caso endereco => conteudo (apenas exemplo. Altere para refletir o
 		-- programa solicitado)
-		0 => "00000010",
-		1 => "10000000",
-		2 => "00001111",
-		3 => "00000000",
-		4 => "10000000",
-		5 => "00000010",
+		0 => "11000001",
+		1 => "11000101",
+		2 => "00011110",
+		3 => "00000001",
+		4 => "10000101",
+		5 => "11000111",
 		6 => "10100011",
 		7 => "00000010",
 		8 => "00000010",
-		9 => "00011110",
+		9 => "11000011",
 		10 => "00000000",
+		15 => "11000001",
 		-- abaixo: casos omissos => (zero em todos os bits a decodificação do pc
 		--é parcial dos 7 least significat bits)
-		others => (others=>'0')
+		OTHERS => (OTHERS => '0')
 	);
-	begin
-	process(clk)
-	begin
-		if(rising_edge(clk)) then
+BEGIN
+	PROCESS (clk)
+	BEGIN
+		IF (rising_edge(clk)) THEN
 			dado <= conteudo_rom(to_integer(endereco));
-		end if;
-	end process;
-end architecture;
+		END IF;
+	END PROCESS;
+END ARCHITECTURE;
