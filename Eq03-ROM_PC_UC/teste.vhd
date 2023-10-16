@@ -21,18 +21,30 @@ ARCHITECTURE a_tb OF tb IS
 	);
 	end component;
 	
-  SIGNAL CLK, RST, WR_EN : std_logic := '0';
-  signal data_in_s, data_out_s : unsigned(7 downto 0) :=x"00";
+	component maq_estados is
+	port(
+		clk, rst : in std_logic;
+		estado : out std_logic
+	);
+	end component;
+	
+  SIGNAL CLK, RST, WR_EN, est_s : std_logic := '0';
+  signal data_in_s, data_out_s, dado_s, dado_out : unsigned(7 downto 0) :=x"00";
   
 BEGIN
-  uut : pc PORT MAP(clk=>CLK, wr_en=>WR_EN, rst=>RST, data_in=>data_in_s, data_out=>data_out_s);
-  uut2: rom port map(clk=>CLK, endereco=>data_out_s);
+  pc_uut : pc PORT MAP(clk=>CLK, wr_en=>WR_EN, rst=>RST, data_in=>data_in_s, data_out=>data_out_s);
+  rom_uut : rom port map(clk=>CLK, endereco=>data_out_s, dado=>dado_s);
+  maq_estados_uut : maq_estados port map(clk=>CLK, rst =>RST, estado=>est_s);
+  
+  data_in_s<= data_in_s + x"01" when est_s='1' else
+	data_in_s; 
+  dado_out<=dado_s when est_s='0' else
+	dado_out; 
   
   
   PROCESS -- sinal de clock
   BEGIN
     clk <= '0';
-    data_in_s<= data_in_s + x"01";
     WAIT FOR 50 ns;
     clk <= '1';
     WAIT FOR 50 ns;
@@ -42,7 +54,7 @@ BEGIN
   BEGIN
     RST <= '1';
     WR_EN <= '1';
-    wait for 50 ns;
+    wait for 10 ns;
     RST <= '0';
     WAIT;
   END PROCESS;
