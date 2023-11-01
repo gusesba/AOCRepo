@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Oct 16 22:01:15 2023
+[*]
+[dumpfile] "/home/jose/arquitetura/Eq03-ROM_PC_UC/Eq03-ROM_PC_UC.ghw"
+[dumpfile_mtime] "Mon Oct 16 22:00:01 2023"
+[dumpfile_size] 1019
+[savefile] "/home/jose/arquitetura/Eq03-ROM_PC_UC/Eq03-ROM_PC_UC.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-27.906399 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.rom_pc_uc_tb.
+[treeopen] top.rom_pc_uc_tb.uut.
+[treeopen] top.rom_pc_uc_tb.uut.pc_uut.
+[sst_width] 233
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+top.rom_pc_uc_tb.clk_s
+top.rom_pc_uc_tb.rst_s
+@22
+#{top.rom_pc_uc_tb.uut.dado_s[7:0]} top.rom_pc_uc_tb.uut.dado_s[7] top.rom_pc_uc_tb.uut.dado_s[6] top.rom_pc_uc_tb.uut.dado_s[5] top.rom_pc_uc_tb.uut.dado_s[4] top.rom_pc_uc_tb.uut.dado_s[3] top.rom_pc_uc_tb.uut.dado_s[2] top.rom_pc_uc_tb.uut.dado_s[1] top.rom_pc_uc_tb.uut.dado_s[0]
+#{top.rom_pc_uc_tb.uut.pc_uut.data_in[7:0]} top.rom_pc_uc_tb.uut.pc_uut.data_in[7] top.rom_pc_uc_tb.uut.pc_uut.data_in[6] top.rom_pc_uc_tb.uut.pc_uut.data_in[5] top.rom_pc_uc_tb.uut.pc_uut.data_in[4] top.rom_pc_uc_tb.uut.pc_uut.data_in[3] top.rom_pc_uc_tb.uut.pc_uut.data_in[2] top.rom_pc_uc_tb.uut.pc_uut.data_in[1] top.rom_pc_uc_tb.uut.pc_uut.data_in[0]
+@23
+#{top.rom_pc_uc_tb.uut.pc_uut.data_out[7:0]} top.rom_pc_uc_tb.uut.pc_uut.data_out[7] top.rom_pc_uc_tb.uut.pc_uut.data_out[6] top.rom_pc_uc_tb.uut.pc_uut.data_out[5] top.rom_pc_uc_tb.uut.pc_uut.data_out[4] top.rom_pc_uc_tb.uut.pc_uut.data_out[3] top.rom_pc_uc_tb.uut.pc_uut.data_out[2] top.rom_pc_uc_tb.uut.pc_uut.data_out[1] top.rom_pc_uc_tb.uut.pc_uut.data_out[0]
+[pattern_trace] 1
+[pattern_trace] 0

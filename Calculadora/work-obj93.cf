@@ -1,0 +1,13 @@
+v 4
+file . "Eq03-UC.vhd" "1300d1cd6581b624c9aa2b3ae520b68713768781" "20231101180730.921":
+  entity uc at 1( 0) + 0 on 27;
+  architecture a_uc of uc at 14( 255) + 0 on 28;
+file . "Eq03-ULA.vhd" "e9979d4fc89025216946daef0e035c2316e1b6a4" "20231101171754.713":
+  entity ula at 6( 215) + 0 on 11;
+  architecture a_ula of ula at 19( 506) + 0 on 12;
+file . "Eq03-rom.vhd" "97f97d46282798727896b6bc657d5e34e8fe04e4" "20231101173515.812":
+  entity rom at 1( 0) + 0 on 13;
+  architecture a_rom of rom at 13( 202) + 0 on 14;
+file . "Eq03-ROM_PC_UC.vhd" "c7ce1fa5160b79f1f6079963e919c84d81124fd7" "20231101174302.655":
+  entity rom_pc_uc at 1( 0) + 0 on 21;
+  architecture a_rom_pc_uc of rom_pc_uc at 12( 143) + 0 on 22;

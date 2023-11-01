@@ -1,0 +1,19 @@
+Instrução 32 bits:
+Opcode 7 bits(31 downto 25);
+Rd 3 bits(24 downto 22);
+Ra 3 bits(21 downto 19);
+Rb 3 bits(18 downto 16);
+Constante 16 bits(15 downto 0).
+
+Opcode:
+"1000000"= soma
+"1000001"= divisão
+"1000010"= resto
+"1000011"= multplicação
+"1000100"= xor
+"1000101"= not a
+"1000110"= subtração
+"1000111"= soma constante
+
+"0000111"= wr_en
+"0001000"= jump_en
