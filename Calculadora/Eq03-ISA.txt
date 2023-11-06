@@ -1,10 +1,10 @@
 Instrução 32 bits:
-Opcode 7 bits(31 downto 25);
-Rd 3 bits(24 downto 22);
-Ra 3 bits(21 downto 19);
-Rb 3 bits(18 downto 16);
-Constante 16 bits(15 downto 0).
-
+Opcode 7 bits(31 downto 25); 
+Rd 3 bits(24 downto 22); 
+Ra 3 bits(21 downto 19); 
+Rb 3 bits(18 downto 16); 
+Constante 16 bits(15 downto 0). 
+b"1100001_111_110_000_0000000000000011";
 Opcode:
 "1000000"= soma
 "1000001"= divisão
@@ -13,7 +13,7 @@ Opcode:
 "1000100"= xor
 "1000101"= not a
 "1000110"= subtração
-"1000111"= soma constante
+"1000111"= somar constante
+"1100001"= divisão constante
 
-"0000111"= wr_en
-"0001000"= jump_en
+"0001000"= jump

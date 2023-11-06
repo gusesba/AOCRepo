@@ -26,7 +26,7 @@ BEGIN
     s_op <= op;
     s_mul <= s_in_A * s_in_B WHEN s_op = "011" ELSE
         "00000000000000000000000000000000";
-    s_out_ULA <= s_in_A + s_in_B WHEN s_op = "000" ELSE
+    s_out_ULA <= s_in_A + s_in_B WHEN s_op = "000" or s_op = "111" ELSE
         s_in_A / s_in_B WHEN s_op = "001" ELSE
         s_in_A MOD s_in_B WHEN s_op = "010" ELSE
         s_mul(15 DOWNTO 0) WHEN s_op = "011" ELSE
