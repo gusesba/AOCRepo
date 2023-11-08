@@ -27,14 +27,14 @@ BEGIN
     s_mul <= s_in_A * s_in_B WHEN s_op = "011" ELSE
         "00000000000000000000000000000000";
     s_out_ULA <= s_in_A + s_in_B WHEN s_op = "000" or s_op = "111" ELSE
-        s_in_A / s_in_B WHEN s_op = "001" ELSE
+        s_in_A / s_in_B WHEN s_op = "001" and s_in_B /= x"0000" ELSE
         s_in_A MOD s_in_B WHEN s_op = "010" ELSE
         s_mul(15 DOWNTO 0) WHEN s_op = "011" ELSE
         s_in_A XOR s_in_B WHEN s_op = "100" ELSE
         NOT s_in_A WHEN s_op = "101" ELSE
         s_in_A - s_in_B WHEN s_op = "110" ELSE
         "0000000000000000";
-    zero <= '1' WHEN s_out_ULA = "0000000000000000" ELSE
+    zero <= '1' WHEN s_out_ULA = x"0000" and ((s_in_B /= x"0000" and op /= "001") or (s_in_A = x"0000" and op = "001" and s_in_B /= x"0000")) ELSE
         '0';
     mq <= '1' WHEN s_in_A > s_in_B ELSE
         '0';

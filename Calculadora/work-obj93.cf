@@ -1,28 +1,28 @@
 v 4
-file . "Eq03-ROM_PC_UC_tb.vhd" "1e7023d0de2bc1d71500514d2ff4fa3d0add796d" "20231106222807.939":
-  entity rom_pc_uc_tb at 1( 0) + 0 on 115;
-  architecture a_rom_pc_uc_tb of rom_pc_uc_tb at 7( 105) + 0 on 116;
-file . "Eq03-ROM_PC_UC.vhd" "4c26d21af396dbaff4ba7c0c55e73cb155bed28a" "20231106222806.225":
-  entity rom_pc_uc at 1( 0) + 0 on 113;
-  architecture a_rom_pc_uc of rom_pc_uc at 12( 143) + 0 on 114;
+file . "Eq03-ROM_PC_UC_tb.vhd" "1e7023d0de2bc1d71500514d2ff4fa3d0add796d" "20231108180056.424":
+  entity rom_pc_uc_tb at 1( 0) + 0 on 131;
+  architecture a_rom_pc_uc_tb of rom_pc_uc_tb at 7( 105) + 0 on 132;
+file . "Eq03-ROM_PC_UC.vhd" "4c26d21af396dbaff4ba7c0c55e73cb155bed28a" "20231108180054.446":
+  entity rom_pc_uc at 1( 0) + 0 on 129;
+  architecture a_rom_pc_uc of rom_pc_uc at 12( 143) + 0 on 130;
 file . "Eq03-maq_estados.vhd" "75622702d96dc8ed06695895476ace5cf5ce5575" "20231106210043.029":
   entity maq_estados at 1( 0) + 0 on 23;
   architecture a_maq_estados of maq_estados at 13( 180) + 0 on 24;
 file . "Eq03-rom.vhd" "cf6a645a435a56b4123642b12607fe1de4da2528" "20231106222804.344":
   entity rom at 1( 0) + 0 on 111;
   architecture a_rom of rom at 13( 202) + 0 on 112;
-file . "Eq03-ULA.vhd" "3284e421d5b1771cfd576935f4ba731a67b368e7" "20231106210538.767":
-  entity ula at 6( 215) + 0 on 29;
-  architecture a_ula of ula at 19( 506) + 0 on 30;
+file . "Eq03-ULA.vhd" "d5ab363b2b8669e99b1db4e4b1cf4785b1cfd98a" "20231108180050.486":
+  entity ula at 6( 215) + 0 on 125;
+  architecture a_ula of ula at 19( 506) + 0 on 126;
 file . "Eq03-reg16bits.vhd" "c523e718600f05ce163847eaa86f5a9d133c7cdf" "20231106205958.353":
   entity reg16bits at 1( 0) + 0 on 11;
   architecture a_reg16bits of reg16bits at 13( 259) + 0 on 12;
 file . "Eq03-RegFile.vhd" "94e10bf8be0b64d42aac1b6c1243014128235e74" "20231106210004.094":
   entity register_file at 1( 0) + 0 on 13;
   architecture a_register_file of register_file at 15( 295) + 0 on 14;
-file . "Eq03-ULARegs.vhd" "ad9b8deb53419ece70fc6c11312344df602ecd58" "20231106210544.050":
-  entity ularegs at 1( 0) + 0 on 31;
-  architecture a_ularegs of ularegs at 16( 287) + 0 on 32;
+file . "Eq03-ULARegs.vhd" "ad9b8deb53419ece70fc6c11312344df602ecd58" "20231108180052.486":
+  entity ularegs at 1( 0) + 0 on 127;
+  architecture a_ularegs of ularegs at 16( 287) + 0 on 128;
 file . "Eq03-pc.vhd" "b58b7b49afc96bbdbb171448aef26ba8020aa8e3" "20231106210037.299":
   entity pc at 1( 0) + 0 on 21;
   architecture a_pc of pc at 14( 217) + 0 on 22;
