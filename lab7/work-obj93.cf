@@ -1,0 +1,31 @@
+v 4
+file . "Eq03-Calc_tb.vhd" "b7fc5b0911bcc6262dcfbe627a520e854d85cc38" "20231112202215.795":
+  entity rom_pc_uc_tb at 6( 205) + 0 on 29;
+  architecture a_rom_pc_uc_tb of rom_pc_uc_tb at 12( 310) + 0 on 30;
+file . "Eq03-ULA.vhd" "384590307a94e7711fa14163bf21740f1a9f59f0" "20231112202215.693":
+  entity ula at 6( 215) + 0 on 25;
+  architecture a_ula of ula at 19( 506) + 0 on 26;
+file . "Eq03-ROM.vhd" "a93e5bdc75ed07d305f03d2c7fe584ef6c0c953d" "20231120225027.578":
+  entity rom at 6( 207) + 0 on 67;
+  architecture a_rom of rom at 18( 411) + 0 on 68;
+file . "Eq03-RegFile.vhd" "2c10ec559653eeec1b8d6135e0c7ac41829015c8" "20231112202215.361":
+  entity register_file at 6( 210) + 0 on 17;
+  architecture a_register_file of register_file at 21( 508) + 0 on 18;
+file . "Eq03-PC.vhd" "3e678984eb5151ca065cad53a602bad072572e35" "20231112202215.208":
+  entity pc at 6( 206) + 0 on 13;
+  architecture a_pc of pc at 17( 422) + 0 on 14;
+file . "Eq03-maq_estados.vhd" "a310a268076851e8f5a14ad233c0f2e28cfd7715" "20231112202215.088":
+  entity maq_estados at 6( 210) + 0 on 11;
+  architecture a_maq_estados of maq_estados at 16( 389) + 0 on 12;
+file . "Eq03-Reg16bits.vhd" "f135443e697d942fb970ab8feca69b211b2a1f5d" "20231112202215.286":
+  entity reg16bits at 6( 210) + 0 on 15;
+  architecture a_reg16bits of reg16bits at 19( 469) + 0 on 16;
+file . "Eq03-ROM_PC_UC.vhd" "141a799efa628a95dbbf378e2394cb1266eac0aa" "20231120225030.018":
+  entity rom_pc_uc at 6( 215) + 0 on 69;
+  architecture a_rom_pc_uc of rom_pc_uc at 15( 355) + 0 on 70;
+file . "Eq03-UC.vhd" "0fe6961576f33b7af02ad1e5b9280f79162642e9" "20231120224819.840":
+  entity uc at 6( 210) + 0 on 65;
+  architecture a_uc of uc at 19( 485) + 0 on 66;
+file . "Eq03-ULARegs.vhd" "8e93c61321ea6f861b5aab4eb8670a37ab6835a6" "20231112202215.746":
+  entity ularegs at 6( 210) + 0 on 27;
+  architecture a_ularegs of ularegs at 21( 500) + 0 on 28;

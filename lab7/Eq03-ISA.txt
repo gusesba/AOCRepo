@@ -1,0 +1,30 @@
+Equipe 03 -> ISA                      12/11/2023
+-Polianna Beatriz Basso               RA: 2302578
+-José Mário Nishihara de Albuquerque  RA: 2191253
+-Gustavo Esmanhotto Bareta            RA: 2235315
+
+Instrução 32 bits:
+Opcode 7 bits(31 downto 25); 
+Rd 3 bits(24 downto 22); 
+Ra 3 bits(21 downto 19); 
+Rb 3 bits(18 downto 16); 
+Constante 16 bits(15 downto 0). 
+b"1011110_000_110_101_0000000000000011";
+
+Opcode:
+"1000000"= soma
+"1000001"= divisão
+"1000010"= resto
+"1000011"= multplicação
+"1000100"= xor
+"1000101"= not a
+"1000110"= subtração
+"1000111"= somar constante
+"1100001"= divisão constante
+
+"1010110"= BEQ(A=B)
+"1011110"= BNE(A!=B)
+"0000010"= BGT(A>B)
+"0000001"= BLE(A<=B)
+
+"0001000"= jump
